@@ -1,0 +1,10 @@
+.tab-text {
+  color: white;
+}
+
+.top-0 {
+  background: #0f0f0f !important;
+  border-radius: 4px !important;
+  border: 1px solid #6414ff !important;  
+  transition: background-color 0.5s !important;
+}

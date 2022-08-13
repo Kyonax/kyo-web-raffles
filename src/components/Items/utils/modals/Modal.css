@@ -1,0 +1,234 @@
+.dialog {
+  position: fixed;
+  background: #090511;
+  padding: 15px;
+  border-radius: 6px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 350px;
+  text-align: center;
+  /* transition: all 15s; */
+  font-size: 12px;
+  z-index: 10;
+  bottom: 20px;
+  color: #fff;
+}
+
+.dialog-success {
+  border-bottom: 5px solid #62d346;
+}
+
+.dialog-error {
+  border-bottom: 5px solid #d34650;
+}
+
+.dialog-info {
+  border-bottom: 5px solid #46a6d3;
+}
+
+.dialog-warning {
+  border-bottom: 5px solid #d3c446;
+}
+
+.success {
+  fill: #62d346;
+}
+
+.error {
+  fill: #d34650;
+}
+
+.info {
+  fill: #46a6d3;
+}
+
+.warning {
+  fill: #d3c446;
+}
+
+
+/** MODAL */
+/* The Modal (background) */
+.modal {
+  display: block; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 40; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.1); /* Black w/ opacity */
+}
+
+.modal-content {
+  z-index: 41 !important;
+  border-radius: 9px;
+  box-shadow: 0px 3px 17px -4px rgb(0 0 0 / 10%);
+  color: white;
+  transition: margin-top 0.3s;
+
+  border: 1px solid #343536;
+  background: #19191a;
+  max-width: 950px;
+  min-width: 930px;
+  margin: 3% auto; /* 15% from the top and centered */  
+  padding: 60px;  
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+
+.card-items a {
+  color: #483d56 !important;
+}
+
+.card-items a:hover {
+  color: #6414ff !important;
+}
+
+.card-verified-true {
+  position: relative;
+  top: -2px;
+  color: #6414ff !important;
+  font-size: 17px;
+}
+
+.card-verified-false {
+  position: relative;
+  top: -2px;
+  color: #4c337d !important;
+  font-size: 17px;
+}
+
+.card-tittle-tickets {
+  color: #feffbf !important;
+}
+
+.prize-tittle {
+  color: #00d795 !important;
+  font-weight: 900 !important;
+}
+
+.card-title span {
+  font-weight: 400 !important;
+}
+
+.imagencita-wallets {
+  margin-top: -4%;
+  margin-bottom: 3%;
+  width: 170px !important;
+}
+
+.imagencita-wallets img {
+  border-radius: 10px !important;
+}
+
+.linea {
+  border-top: 2px solid white;
+  height: 3px;
+  max-width: 100%;
+  margin: 20px 3px;
+  opacity: 7%;
+}
+
+.design-list-2 ul {
+  font-size: 12px;
+  margin: 0;
+  margin-left: 30px;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 0.4rem;
+  color: #a6b7de !important;
+  font-weight: 500 !important;
+}
+
+.design-list ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 1rem;
+  color: #00d795 !important;
+  font-weight: 600 !important;
+}
+
+.list-tickets {
+  position: absolute;
+  right: 200px;
+}
+
+.list-tickets-2 {
+  position: absolute;
+  right: 160px;
+}
+
+.list-tickets-3 {
+  position: absolute;
+  right: 268px;
+}
+
+.list-tickets-4 {
+  position: absolute;
+  right: 350px;
+}
+
+.design-list ul li::before {
+  content: attr(data-icon);
+  /* Make slightly larger than the li font-size
+    but smaller than the li gap */
+  font-size: 12px;
+}
+
+.design-list-2 ul li::before {
+  content: attr(data-icon);
+  /* Make slightly larger than the li font-size
+      but smaller than the li gap */
+  font-size: 12px;
+}
+
+.tickets-wallet {
+  position: absolute;
+  right: 100px;
+}
+
+.tickets-wallet-test {
+  color: #00d795 !important;
+  position: absolute;
+  right: 100px;
+}
+
+.tickets-wallet-test2 {
+  color: #6414ff !important;  
+  font-weight: 900;
+}
+
+.design-list li {
+  display: grid;
+  grid-template-columns: 0 1fr;
+  gap: 1.75em;
+  align-items: start;
+  font-size: 14px;
+  line-height: 1.25;
+  color: white !important;
+  font-weight: 400 !important;
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  color: #aaa;
+  top: 0px;
+  right: 0px;
+  font-size: 18px;
+  border-color: red;
+  z-index: 24;
+}
+
+.close:hover,
+.close:focus {
+  color: #6414ff !important;
+  cursor: pointer;
+}

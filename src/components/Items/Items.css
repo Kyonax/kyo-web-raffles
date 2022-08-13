@@ -1,0 +1,221 @@
+.item {
+  border-radius: 15px;
+  box-shadow: 0px 3px 17px -4px rgb(0 0 0 / 10%);
+  padding: 15px !important;
+  border: 1px solid #343536;
+  background: #19191a;
+  width: 338px;
+  height: 605px;
+  min-height: 595px;
+  transition: margin-top 0.3s;
+}
+
+.item-disabled {
+  background: #121210 !important;
+  border: 1px solid #252424 !important;
+}
+
+.item:hover {
+  margin-top: -3px;
+  box-shadow: 0px 3px 17px -4px rgb(129 148 137 / 10%);
+}
+
+/** TEXT */
+.text-finished {
+  color: #d9ab27 !important;
+  transition: linear 0.5s;
+}
+
+.tittle-limit-true {
+  color: #d9ab27 !important;
+  transition: linear 0.5s;
+}
+
+/** CARD CSS*/
+
+.card-verified-true {
+  color: #6414ff !important;
+}
+
+.card-verified-false {
+  color: #4c337d !important;
+}
+
+/** IMAGE */
+
+.image img {
+  padding: 3%;
+  border-radius: 25px;
+  margin-top: 10px;
+}
+
+.image-disabled {
+  opacity: 0.4;
+}
+
+/** PLUS */
+
+.menos {
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  border: 1px solid #6414ff;
+  /* border-radius: 4px; */
+  background: #0f0f0f;
+  color: #6414ff;
+  border-radius: 10px;
+  margin-right: -1px !important;
+  transition: linear 0.3s;
+}
+
+.menos:hover {
+  border: 1px solid #ff4f7a;
+  color: #ff4f7a;
+}
+
+.mas {
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  border: 1px solid #6414ff;
+  /* border-radius: 4px; */
+  background: #0f0f0f;
+  color: #6414ff;
+  border-radius: 10px;
+  transition: linear 0.3s;
+}
+
+.mas:hover {
+  border: 1px solid #81ff7f;
+  color: #81ff7f;
+}
+
+/** Buy Ticket */
+
+.buyticket {
+  background: #0a0a0a !important;
+  padding: 8px 20px 8px 20px !important;
+  border: 1px solid #0f0f0f;
+  color: #fff;
+  border-radius: 10px;
+  border: 1px solid #6414ff !important;
+  transition: background-color 1s;
+}
+
+.buyticket-limit-true span {
+  display: none;
+}
+
+.buyticket-limit-true:after {
+  content: "No Remaining";
+}
+
+.buyticket-limit-true {
+  padding: 9px 30px;
+  background: #0f0f0f !important;
+  border: 1px solid #0f0f0f !important;
+  color: #262626;
+  cursor: not-allowed !important;
+  border-radius: 4px;
+  transition: border 1s, color 1s;
+}
+
+.buyticket-disabled {
+  cursor: not-allowed !important;
+  background: #171717 !important;
+  border: 1px solid #0f0f0f !important;
+  color: #262626 !important;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently*/
+}
+
+.buyticket-disabled-2 {
+  cursor: not-allowed !important;
+  background: #171717 !important;
+  border: 1px solid #0f0f0f !important;
+  color: #262626 !important;
+  border-radius: 4px !important;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently*/
+}
+
+.buyticket-finished {
+  cursor: not-allowed !important;
+  border: 1px solid #0f0f0f !important;
+  /* border-radius: 4px; */
+  cursor: not-allowed !important;
+  background: #0f0f0f;
+  color: #262626 !important;
+  border-radius: 4px !important;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently*/
+  transition: border 1s, color 1s;
+}
+
+.buyticket-finished-all span {
+  display: none;
+}
+
+.buyticket-finished-all:after {
+  content: "Raffle Ended";
+}
+
+.buyticket-finished:hover {
+  cursor: not-allowed !important;
+  border: 1px solid #d9ab27 !important;
+  /* border-radius: 4px; */
+  background: #0f0f0f !important;
+  color: #d9ab27 !important;
+  border-radius: 4px !important;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently*/
+}
+
+.buyticket-limit-true:hover {
+  cursor: not-allowed !important;
+  border: 1px solid #d9ab27 !important;
+  /* border-radius: 4px; */
+  background: #0f0f0f !important;
+  color: #d9ab27 !important;
+  border-radius: 4px !important;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently*/  
+}
+
+.buyticket:hover {
+  background: #6414ff;
+}
+
+.resize-image img {
+  height: 19rem;
+  object-fit: cover;
+}
+
+/** Limits */
+
+.limit-true {
+  border: 1px solid #0f0f0f !important;
+  cursor: not-allowed !important;
+  background: #0f0f0f;
+  color: #262626;  
+}

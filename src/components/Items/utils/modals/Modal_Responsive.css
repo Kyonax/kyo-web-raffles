@@ -1,0 +1,151 @@
+@media only screen and (max-width: 768px) {
+  .modal-content {
+    padding: 15px !important;
+    min-width: 330px !important;
+    width: 95% !important; /* Full width */
+  }
+
+  .imagencita-wallets {
+    margin-top: -2%;
+    margin-bottom: 3%;
+    width: 100% !important;
+  }
+
+  .imagencita-wallets img {
+    border-radius: 6px !important;
+  }
+
+  .design-list-2 ul {
+    margin-left: 0px;
+    gap: 0.2rem;
+  }
+
+  .tickets-wallet {
+    right: 0px;
+  }
+
+  .design-list ul {
+    gap: 8px;
+  }
+
+  .down-tickets {
+    right: -12px;
+  }
+
+  .design-list-2 ul li::before {
+    font-size: 11px;
+  }
+
+  .design-list ul li {
+    font-size: 10px;
+  }
+
+  .lenght-size {
+    max-inline-size: 55% !important;
+  }
+
+  .list-tickets-2 {
+    position: absolute;
+    right: 10px;
+  }
+
+  .text-total {
+    margin-top: -6px;
+    font-size: 12px !important;
+  }
+
+  .list-tickets-2 {
+    position: absolute;
+    right: 20px;
+  }
+
+  .list-tickets-3 {
+    position: absolute;
+    right: 135px;
+  }
+
+  .list-tickets-4 {
+    position: absolute;
+    right: 222px;
+  }
+
+  .close {
+    color: #6414ff !important;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .close {
+    color: #6414ff !important;
+  }
+
+  .modal-content {
+    padding: 30px;
+    min-width: 330px !important;
+    width: 95% !important; /* Full width */
+  }
+
+  .imagencita-wallets {
+    margin-top: -2%;
+    margin-bottom: 3%;
+    width: 100% !important;
+  }
+
+  .imagencita-wallets img {
+    border-radius: 6px !important;
+  }
+
+  .design-list-2 ul {
+    margin-left: 0px;
+    gap: 0.2rem;
+  }
+
+  .tickets-wallet {
+    right: 0px;
+  }
+
+  .design-list ul {
+    gap: 8px;
+  }
+
+  .down-tickets {
+    right: -12px;
+  }
+
+  .design-list-2 ul li::before {
+    font-size: 11px;
+  }
+
+  .design-list ul li {
+    font-size: 10px;
+  }
+
+  .lenght-size {
+    max-inline-size: 55% !important;
+  }
+
+  .list-tickets-2 {
+    position: absolute;
+    right: 10px;
+  }
+
+  .text-total {
+    margin-top: -6px;
+    font-size: 12px !important;
+  }
+
+  .list-tickets-2 {
+    position: absolute;
+    right: 20px;
+  }
+
+  .list-tickets-3 {
+    position: absolute;
+    right: 135px;
+  }
+
+  .list-tickets-4 {
+    position: absolute;
+    right: 222px;
+  }
+}

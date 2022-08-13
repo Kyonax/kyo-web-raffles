@@ -1,11 +1,8 @@
 {
   "compilerOptions": {
+    "moduleResolution": "node",
     "target": "es5",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
+    "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
@@ -14,13 +11,21 @@
     "forceConsistentCasingInFileNames": true,
     "noFallthroughCasesInSwitch": true,
     "module": "esnext",
-    "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "strictNullChecks": false    
   },
   "include": [
-    "src"
+    "src",
+    "./src/**/*.ts",
+    "./src/**/*.svg",    
+    "**/*.ts",
+    "**/*.tsx",
+    "images.d.ts",
+    "next-env.d.ts",
+    "additional.d.ts",
+    "custom.d.ts"
   ]
 }

@@ -1,0 +1,141 @@
+:root {
+  --slider-padding: 2.2rem;
+  --handle-size: 4.5rem;
+  --img-gap: 0.25rem;
+}
+
+.akira-font-apply {
+  font-family: "Akira Expanded" !important;
+}
+
+.container {
+  display: flex;
+  max-width: 2000px;
+  justify-content: center;
+  overflow: hidden;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+}
+
+.slider {
+  --items-per-screen: 4;
+  display: flex;
+  flex-grow: 1;
+  width: calc(100% - 2 * var(--slider-padding));
+
+  transition: transform 250ms ease-in-out;
+}
+
+.item-content {
+  --pading-left: 0.25rem;
+  flex: 0 0 calc(100% / var(--items-per-screen)) !important;
+  max-width: calc(100% / var(--items-per-screen)) !important;
+  padding-top: 0.2rem;
+  padding-bottom: 0rem;
+  padding-left: var(--pading-left);
+}
+
+.handle {
+  border: none;
+  border-radius: 1rem;
+  flex-grow: 0;
+  flex-shrink: 0;
+  width: var(--handle-size);
+  z-index: 10;
+  margin: 1rem -1.93rem;
+  cursor: pointer;
+
+  font-size: 4.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #6414ff;
+  line-height: 0;
+  transition: background-color 150ms ease-in-out;
+}
+
+.left-handle {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.right-handle {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.text {
+  transition: transform 150ms ease-in-out;
+}
+
+.handle:hover .text,
+.handle:focus .text {
+  transform: scale(1.2);
+}
+
+.sitems-screen-1 {
+  --items-per-screen: 1 !important;
+}
+
+.sitems-screen-2 {
+  --items-per-screen: 2 !important;
+}
+
+.sitems-screen-3 {
+  --items-per-screen: 3 !important;
+}
+
+.sitems-screen-4 {
+  --items-per-screen: 4 !important;
+}
+
+
+.items-screen-1 {
+  --items-per-screen: 1 ;
+}
+
+.items-screen-2 {
+  --items-per-screen: 2 ;
+}
+
+.items-screen-3 {
+  --items-per-screen: 3 ;
+}
+
+.items-screen-4 {
+  --items-per-screen: 4;
+}
+
+/**
+@media screen and (max-width: 1850px) {
+  .slider {
+    --items-per-screen: 4;
+  }
+}
+
+@media screen and (max-width: 1450px) {
+  .slider {
+    --items-per-screen: 3;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .slider {
+    --items-per-screen: 2;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .slider {
+    --items-per-screen: 1;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .item-content {
+    --pading-left: -0.25rem;
+    margin-right: 0.9rem;
+    margin-left: -0.6rem;
+  }
+}
+**/
