@@ -1,6 +1,3 @@
-#+AUTHOR: Kyonax - Cristian Moreno
-
-[[./github/GithubBanner.jpg]]
 
 <p align="left">
   <a id="cover" href="#cover">
